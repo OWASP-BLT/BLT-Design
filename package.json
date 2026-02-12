@@ -1,0 +1,43 @@
+{
+  "name": "@owasp-blt/design-system",
+  "version": "1.0.0",
+  "description": "BLT Design System - Colors, typography, components, and design tokens for OWASP BLT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWASP-BLT/BLT-Design.git"
+  },
+  "keywords": [
+    "design-system",
+    "blt",
+    "owasp",
+    "tailwind",
+    "css",
+    "components",
+    "design-tokens"
+  ],
+  "author": "OWASP BLT Team",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/OWASP-BLT/BLT-Design/issues"
+  },
+  "homepage": "https://github.com/OWASP-BLT/BLT-Design#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  },
+  "files": [
+    "colors/",
+    "typography/",
+    "spacing/",
+    "components/",
+    "logos/",
+    "tokens/",
+    "tailwind.config.js",
+    "README.md"
+  ]
+}
